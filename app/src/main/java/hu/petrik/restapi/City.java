@@ -1,12 +1,12 @@
 package hu.petrik.restapi;
 
-public class Varos {
+public class City {
     private int id;
     private String nev;
     private String orszag;
     private int lakossag;
 
-    public Varos(int id, String nev, String orszag, int lakossag) {
+    public City(int id, String nev, String orszag, int lakossag) {
         this.id = id;
         this.nev = nev;
         this.orszag = orszag;
@@ -39,6 +39,11 @@ public class Varos {
 
     public int getLakossag() {
         return lakossag;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s, %s, %d", this.nev, this.orszag, this.lakossag);
     }
 
     public void setLakossag(int lakossag) {

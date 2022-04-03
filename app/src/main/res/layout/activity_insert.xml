@@ -39,7 +39,7 @@
         android:text="Felvétel"/>
 
     <Button
-        android:id="@+id/visszaButton"
+        android:id="@+id/insertVisszaButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"

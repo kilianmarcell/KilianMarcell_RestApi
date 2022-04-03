@@ -18,7 +18,7 @@ public class InsertActivity extends AppCompatActivity {
         binding = ActivityInsertBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.visszaButton.setOnClickListener(new View.OnClickListener() {
+        binding.insertVisszaButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(InsertActivity.this, MainActivity.class);
